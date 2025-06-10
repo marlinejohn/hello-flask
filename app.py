@@ -16,7 +16,7 @@ def greeting():
 # Simple health-check (always on /healthcheck)
 @app.route("/healthcheck")
 def healthcheck():
-    return "It works!", 200
+    return "It works! AGAIN", 200
 
 if __name__ == "__main__":
     # 0.0.0.0 lets Docker expose the service
